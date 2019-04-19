@@ -1,0 +1,65 @@
+.card {
+    padding: 0 344px;
+    margin-right:0;
+}
+
+.card-body {
+    border: 1px solid black;
+    margin: 15px;
+    max-width: 700px;
+}
+
+.card img {
+    max-width: 500px;
+}
+
+/* ----------------------------------NAV------------------------------- */
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* ----------------------------------LEANBAR------------------------------- */
+
+.slider img {
+    height:50px;
+    width:auto;
+}
+
+.MuiSlider-root-4[aria-valuenow="0"] .StepSlider-thumb-3 {
+    transform: rotate(-180deg)
+}
+
+.MuiSlider-root-4[aria-valuenow="1"] .StepSlider-thumb-3 {
+    transform: rotate(90deg)
+}
+
+.MuiSlider-root-4[aria-valuenow="3"] .StepSlider-thumb-3 {
+    transform: rotate(90deg)
+}
+
+.MuiSlider-root-4[aria-valuenow="4"] .StepSlider-thumb-3 {
+    transform: rotate(-180deg)
+}
+
+.barPic {
+    height: 50px;
+    width: auto;
+}
+
+#democrat {
+    float: left;
+    margin-left: -20px;
+}
+
+#republican {
+    float: right;
+    margin-right: -25px;
+}
+
+
+
